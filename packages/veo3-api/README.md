@@ -1,7 +1,5 @@
 # Veo 3 API & Veo 3 Fast API-Google AI
 
-English | [中文](./README.zh-CN.md)
-
 An open-source React plugin that uses Veo3 to generate videos via kie.ai's API. Bring AI-powered video creation to your web applications.
 
 ### ✨ Features
@@ -165,7 +163,6 @@ function App() {
 ### 📚 Dependencies
 
 This package includes these peer dependencies:
-
 - `react` and `react-dom`
 - `axios` for API calls
 - `lucide-react` for icons

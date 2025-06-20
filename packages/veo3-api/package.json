@@ -1,0 +1,55 @@
+{
+  "name": "veo3-api",
+  "version": "1.0.0",
+  "description": "An open-source React plugin that uses Veo3 to generate videos via kie.ai's API. Bring AI-powered video creation to your web applications.",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "type-check": "tsc --noEmit",
+    "clean": "rm -rf dist"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "react-dom": ">=18.0.0"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "lucide-react": "^0.294.0",
+    "react-dropzone": "^14.2.0",
+    "react-hot-toast": "^2.5.2",
+    "react-spinners": "^0.13.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-terser": "^0.4.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "rollup": "^4.0.0",
+    "rollup-plugin-postcss": "^4.0.0",
+    "tailwindcss": "^3.3.0",
+    "tslib": "^2.6.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "react",
+    "components",
+    "ai video generation",
+    "veo3-api",
+    "veo3"
+  ],
+  "author": "Kie.ai",
+  "license": "MIT"
+}
